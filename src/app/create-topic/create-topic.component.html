@@ -1,0 +1,18 @@
+<div class="container">
+
+<form [formGroup]="form">
+<div class="form-group">
+  <br><br>
+  <label>Topic Subject :</label>
+  <input class="form-control" formControlName="subject"/>
+  <br>
+  <label>Topic Descption :</label>
+  <input class="form-control input-lg" formControlName="description"/>
+</div>
+
+<button class="btn btn-primary" (click)="clickMethod()">Submit</button>
+
+</form>
+
+
+</div>

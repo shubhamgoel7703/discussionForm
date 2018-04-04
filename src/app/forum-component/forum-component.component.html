@@ -1,0 +1,12 @@
+<div style="text-align:center">
+    <h3>
+        Hi {{username}} Welcome to forum
+    </h3>
+
+    <button class="btn btn-primary" [routerLink]="['createtopic']">Create Topic</button>
+    <button class="btn btn-primary" [routerLink]="['exploretopic']">Explore Topic</button>
+
+    <button class="btn btn-primary" [routerLink]="['/']">Log Out</button>
+
+    <router-outlet></router-outlet>
+</div>
